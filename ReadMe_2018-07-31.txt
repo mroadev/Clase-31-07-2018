@@ -1,0 +1,32 @@
+
+Clonar Proyecto desde HitHub
+
+1. Eliminar Proyecto mysql_java desde Elicpse
+
+2. Ingresar a Carpeta de proyectos (Workingset)
+C:\>cd PROYECTOS_JAVA
+
+3. Clonar
+C:\PROYECTOS_JAVA>git clone http://github.com/alvarockcl/mysql_java.git
+
+Cloning into 'mysql_java'...
+warning: redirecting to https://github.com/alvarockcl/mysql_java.git/
+remote: Counting objects: 138, done.
+remote: Compressing objects: 100% (84/84), done.
+remote: Total 138 (delta 37), reused 96 (delta 1), pack-reused 0
+Receiving objects: 100% (138/138), 17.21 KiB | 1.72 MiB/s, done.
+Resolving deltas: 100% (37/37), done.
+
+4. Agregar Proyecto a Eclipse
+File | Import
+Maven
+Existing Maven Proyects
+Browser (buscar)
+marcar add working ...
+
+5. Properties
+Java Builder Path
+Java Conmpile
+
+Run As | Maven buil
+
